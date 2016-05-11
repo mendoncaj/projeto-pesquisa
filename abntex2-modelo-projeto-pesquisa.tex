@@ -70,8 +70,8 @@
 % ---
 % Pacotes de citações
 % ---
-\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage[brazilian,hyperpageref]{backref}	% Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}							% Citações padrão ABNT
 
 % --- 
 % CONFIGURAÇÕES DE PACOTES
@@ -194,9 +194,9 @@ com as normas ABNT apresentado ao Programa de Pós-Graduação em Engenharia da 
 % ---
 % inserir lista de ilustrações
 % ---
-\pdfbookmark[0]{\listfigurename}{lof}
-\listoffigures*
-\cleardoublepage
+%%\pdfbookmark[0]{\listfigurename}{lof}
+%%\listoffigures*
+%%\cleardoublepage
 % ---
 
 % ---
@@ -213,18 +213,19 @@ com as normas ABNT apresentado ao Programa de Pós-Graduação em Engenharia da 
 \begin{siglas}
   \item[USP] Universidade de São Paulo
   \item[API] Application Programming Interface
+  \item[REST] Representational State Transfer
 \end{siglas}
 % ---
 
 % ---
 % inserir lista de símbolos
 % ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
+%%\begin{simbolos}
+%%  \item[$ \Gamma $] Letra grega Gama
+%%  \item[$ \Lambda $] Lambda
+%%  \item[$ \zeta $] Letra grega minúscula zeta
+%%  \item[$ \in $] Pertence
+%% \end{simbolos}
 % ---
 
 % ---
@@ -247,30 +248,13 @@ com as normas ABNT apresentado ao Programa de Pós-Graduação em Engenharia da 
 \chapter*[Introdução]{Introdução}
 \addcontentsline{toc}{chapter}{Introdução}
 
-Nos ultimos anos a evolução da área computacional tem se desenvolvido em ritmo acelarado, sobretudo as \emph{Linguagens de Programação} que evoluem suas API's constantemente, construindo e descontruindo métodos e muitas vezes quebrando paradigmas. O que se sabe hoje pode estar obsoleto amanhã, as exigências e tendênicas mudam com frequência, requerindo capacitação atualizada aos profissionais que atuam neste universo.  
+Não raro a evolução na área computacional se desenvolve em ritmo acelarado, novos algoritmos, técnicas para programação distribuída, inteligência artificial etc. Com as \emph{Linguagens de Programação} não é diferente, elas aprimoram suas API's constantemente, construindo e descontruindo métodos, muitas vezes quebrando paradigmas. O que se sabe hoje pode estar obsoleto amanhã, as exigências e tendênicas mudam com frequência, requerindo capacitação atualizada aos profissionais que atuam neste universo.  
 
 O grande desafio das universidades que trabalham na formação de quadro profissionais é prover conhecimento não só para os especialistas com perfil para atuar em linhas de pesquisa, onde o conhecimento é mais profundo, mas também para aqueles que irão, após sua formação compor o mercado de trabalho, que muitas vezes é mais razo, porém mais dinâmico.
 
-E para dar vazão a este dinamismo profissionais da área de computação diariamente recorrem a cursos online, livros, revistas e claro web sites. Dentre estas mídias merece destaque o site Stack Overflow, maior comunidade online para programadores aprender, compartilhar conhecimento e progredir na carreira.
+E para dar vazão a este dinamismo profissionais da área de computação diariamente recorrem a cursos online, livros, revistas e claro \textit{websites}. Dentre estas mídias merece destaque o fórum \href{http://stackoverflow.com/company/about}{\textit{Stack Overflow}}, maior comunidade online para programadores aprender, compartilhar conhecimento e progredir na carreira. Também é possível fazer um \textit{tour} pelo site\footnote{\url{http://stackoverflow.com/tour}}, onde são apresentados as regras e a mecânica desta poderosa ferramenta para troca de conhecimento.
 
-O objeto deste projeto é catalogar as perguntas deste notório site, objetivando entender os principais questionamentos dos usuários desta comunidade e oferecer estes insumos para universidades, faculdades e instituições educacionais, para que estas, possam aprimorar seus cursos e treinamentos, estreitando a distância entre o que é lecionado e os requisitos impostos pelo dia-a-dia nas empresas.
-
-
-\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
-exemplifica a elaboração de projetos de pesquisa produzidos
-conforme a ABNT NBR 15287:2011 %\emph{Informação e documentação - Projeto de pesquisa - Apresentação}%. 
-
-A expressão ``Modelo canônico'' é utilizada para indicar que \abnTeX\ não é
-modelo específico de nenhuma universidade ou instituição, mas que implementa tão
-somente os requisitos das normas da ABNT. Uma lista completa das normas
-observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
-
-Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
-\url{http://www.abntex.net.br/}. Também fique livre para conhecer,
-estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
-modificados tenham seus nomes alterados e que os créditos sejam dados aos
-autores originais, nos termos da ``The \LaTeX\ Project Public
-License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
+O objeto deste projeto de pesquisa é propor um algoritmo de linguagem de máquina que consiga catalogar as perguntas desta comunidade, objetivando entender os principais questionamentos dos usuários e detectando padrões nas dúvidas mais frequentes. Estes insumos estarão disponíveis para que universidades e instituições de ensino possam aperfeiçoar seus cursos e treinamentos, estreitando a distância entre o que é lecionado e os requisitos impostos pelo dia-a-dia nas empresas.
 
 % ----------------------------------------------------------
 % Capitulo de textual  
@@ -278,22 +262,12 @@ License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
 \chapter{Objetivos}
 
 \chapterprecis {
-Tópicos de interesse, assunto previsto, relevância para a área específica, aplicabilidade do estudo}\index{sinopse de capítulo}
+Tópicos de interesse, assunto previsto, relevância para a área específica e aplicabilidade do estudo}\index{sinopse de capítulo}
 
+\index{Objetivos} Os principais questionamentos dos usuários participantes da rede \textit{Stack Overflow}, objeto de pesquisa deste trabalho, será embasado pelos assuntos das áreas: \textsf{\textit{Educational Data Mining}}, \textsf{\textit{Learning Analytics}} e \textsf{\textit{Machine Learning}} e versará sobre os tópicos de interesse: \emph{Mineração de dados} para reconhecer padrões nas dúvidas dos usuários e \emph{algorítmos baseados em aprendizagem de máquina} para arranjar as perguntas sintáticamente equivalentes em grupos. 
 
-\index{Objetivos} O objeto de pesquisa deste trabalho, medir os questionamentos dos usuários do Stack Overflow, será suportado pelos assuntos das áreas: Edcuational Data Mining, Learning Analytics e Machine Learning e  versará sobre os tópicos de interesse : data Mining para reconhecer padrões nas dúvidas dos usuários e algorítmos baseados em aprendizagem de máquina para agrupar as perguntas sintáticamente equivalentes. 
+O universo de dados coletados e categorizados, será de grande relevância  para instuições de ensino sobre o tema Programação de Computadores - foco das análises, que poderão aprimorar sua grade curricular e com isso aproximar a distância entre as expectativas do mercado de trabalho com o que é lecionado em salas de aula.
 
-O universo de dados coletados e categorizados, será de grande relevância  para instuições de ensino de Programação de Computadores, que poderão aprimorar seu conteúdo, e com isso diminuir a distância das exigências do mercado de trabalho com o que é ensinado, muitas vezes na teoria.
-
-
-%%\begin{citacao}
-%%O texto deve ser constituído de uma parte introdutória, na qual devem ser
-%%expostos o tema do projeto, o problema a ser abordado, a(s) hipótese(s),
-%%quando couber(em), bem como o(s) objetivo(s) a ser(em) atingido(s) e a(s)
-%%justificativa(s). É necessário que sejam indicados o referencial teórico que
-%%o embasa, a metodologia a ser utilizada, assim como os recursos e o cronograma
-%%necessários à sua consecução.
-%%\end{citacao}
 
 %%Consulte as demais normas da série ``Informação e documentação'' da ABNT
 %%para outras informações. Uma lista com as principais normas dessa série, todas
@@ -337,66 +311,6 @@ O universo de dados coletados e categorizados, será de grande relevância  para
 % Consulte o manual da classe abntex2 para orientações sobre o glossário.
 %
 %\glossary
-
-% ----------------------------------------------------------
-% Apêndices
-% ----------------------------------------------------------
-
-% ---
-% Inicia os apêndices
-% ---
-\begin{apendicesenv}
-
-% Imprime uma página indicando o início dos apêndices
-\partapendices
-
-% ----------------------------------------------------------
-\chapter{Quisque libero justo}
-% ----------------------------------------------------------
-
-\lipsum[50]
-
-% ----------------------------------------------------------
-\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-ac pretium ante justo a nulla curabitur tristique arcu eu metus}
-% ----------------------------------------------------------
-\lipsum[55-57]
-
-\end{apendicesenv}
-% ---
-
-
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-% ---
-% Inicia os anexos
-% ---
-\begin{anexosenv}
-
-% Imprime uma página indicando o início dos anexos
-\partanexos
-
-% ---
-\chapter{Morbi ultrices rutrum lorem.}
-% ---
-\lipsum[30]
-
-% ---
-\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
-parturient montes nascetur ridiculus mus}
-% ---
-
-\lipsum[31]
-
-% ---
-\chapter{Fusce facilisis lacinia dui}
-% ---
-
-\lipsum[32]
-
-\end{anexosenv}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
