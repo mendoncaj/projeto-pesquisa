@@ -19,4 +19,6 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Considera\IeC {\c c}\IeC {\~o}es finais}{19}{chapter*.6}
 \vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{21}{section*.9}
 \vspace {\cftbeforechapterskip }

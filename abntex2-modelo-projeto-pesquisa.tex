@@ -86,7 +86,7 @@
 % Define os textos da citação
 \renewcommand*{\backrefalt}[4]{
 	\ifcase #1 %
-		Nenhuma citação no texto.%
+		%
 	\or
 		Citado na página #2.%
 	\else
@@ -302,7 +302,10 @@ O universo de dados coletados e categorizados, será de grande relevância  para
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
+\nocite{Kelleher}
 \bibliography{abntex2-modelo-references}
+
+
 
 % ----------------------------------------------------------
 % Glossário
