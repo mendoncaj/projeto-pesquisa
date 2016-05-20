@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  15 MAY 2016 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  20 MAY 2016 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,16 +1107,14 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 
 ] [15] [16
 
-]) [17] [18
-
-
-]
+]) [17]
 (./abntex2-modelo-projeto-pesquisa.bbl (./abntex2-modelo-projeto-pesquisa.brf)
 \tf@brf=\write5
 \openout5 = `abntex2-modelo-projeto-pesquisa.brf'.
 
 
-[19] [20
+[18
+
 
 ]
 
@@ -1126,19 +1124,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 bibitemlist
 )
 No file abntex2-modelo-projeto-pesquisa.ind.
-[21]
+[19]
 \tf@lot=\write6
 \openout6 = `abntex2-modelo-projeto-pesquisa.lot'.
 
 \tf@toc=\write7
 \openout7 = `abntex2-modelo-projeto-pesquisa.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
  (./abntex2-modelo-projeto-pesquisa.aux
 (./abntex2-modelo-include-comandos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `abntex2-modelo-projeto-pesquisa.brf' has not
  changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1146,16 +1144,16 @@ Package rerunfilecheck Info: File `abntex2-modelo-projeto-pesquisa.brf' has not
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 13812 strings out of 493089
- 206755 string characters out of 6134843
- 463020 words of memory out of 5000000
- 16962 multiletter control sequences out of 15000+600000
- 80030 words of font info for 95 fonts, out of 8000000 for 9000
+ 13918 strings out of 493089
+ 208218 string characters out of 6134843
+ 465871 words of memory out of 5000000
+ 17060 multiletter control sequences out of 15000+600000
+ 79977 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,36p,659b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,12n,36p,691b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-di
@@ -1167,11 +1165,11 @@ al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texm
 f-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/lm/lmsso12.pfb>
-Output written on abntex2-modelo-projeto-pesquisa.pdf (23 pages, 264192 bytes).
+Output written on abntex2-modelo-projeto-pesquisa.pdf (21 pages, 273485 bytes).
 
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 26713 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 232 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 26705 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -16,9 +16,7 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Cronograma}}{17}{chapter.4}
 \vspace {\cftbeforechapterskip }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Considera\IeC {\c c}\IeC {\~o}es finais}{19}{chapter*.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{21}{section*.9}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{19}{section*.8}
 \vspace {\cftbeforechapterskip }
