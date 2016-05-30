@@ -28,14 +28,6 @@
   Drivers \& Techniques}. 1. ed. [S.l.]: Prentice Hall, 2015.  (The Prentice
   Hall Service Technology Series).}
 
-\bibitem[Fielding 2000]{Fielding:2000:ASD:932295}
-\abntrefinfo{Fielding}{FIELDING}{2000}
-{FIELDING, R.~T.
-\emph{Architectural Styles and the Design of Network-based Software
-  Architectures}.
-Tese (Doutorado) --- University of California, Irvine, Califórnia, USA, 2000.
-  AAI9980887.}
-
 \bibitem[Flach 2012]{Flach}
 \abntrefinfo{Flach}{FLACH}{2012}
 {FLACH, P. \emph{Machine Learning: The Art and Science of Algorithms that Make
@@ -46,6 +38,14 @@ Tese (Doutorado) --- University of California, Irvine, Califórnia, USA, 2000.
 {HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. \emph{The Elements of Statistical
   Learning: Data Mining, Inference, and Prediction}. 2. ed. [S.l.]: Springer,
   2009.  (Information Science and Statistics).}
+
+\bibitem[Hulth 2003]{Hulth:2003:IAK:1119355.1119383}
+\abntrefinfo{Hulth}{HULTH}{2003}
+{HULTH, A. Improved automatic keyword extraction given more linguistic
+  knowledge. In:  \emph{Proceedings of the 2003 Conference on Empirical Methods
+  in Natural Language Processing}. Stroudsburg, PA, USA: Association for
+  Computational Linguistics, 2003.  (EMNLP '03), p. 216--223. Dispon{\'\i}vel
+  em: \url{http://dx.doi.org/10.3115/1119355.1119383}.}
 
 \bibitem[James, Witten et al. 2013]{Gareth}
 \abntrefinfo{James, Witten et al.}{JAMES; WITTEN et al.}{2013}
@@ -59,6 +59,13 @@ Tese (Doutorado) --- University of California, Irvine, Califórnia, USA, 2000.
   Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case
   Studies}. 1. ed. Massachusetts, MA, USA: The MIT Press, 2015.  (MIT Press).}
 
+\bibitem[Mihalcea e Tarau 2004]{mihalcea-tarau:2004:EMNLP}
+\abntrefinfo{Mihalcea e Tarau}{MIHALCEA; TARAU}{2004}
+{MIHALCEA, R.; TARAU, P. Textrank: Bringing order into texts. In:  LIN, D.; WU,
+  D. (Ed.). \emph{Proceedings of EMNLP 2004}. Barcelona, Spain: Association for
+  Computational Linguistics, 2004. p. 404--411. Dispon{\'\i}vel em:
+  \url{http://www.aclweb.org/anthology/W04-3252}.}
+
 \bibitem[Romero et al. 2010]{Romero}
 \abntrefinfo{Romero et al.}{ROMERO et al.}{2010a}
 {ROMERO, C. et al. \emph{Data Mining: Practical Machine Learning Tools and
@@ -70,6 +77,14 @@ Tese (Doutorado) --- University of California, Irvine, Califórnia, USA, 2000.
 {ROMERO, C. et al. \emph{Handbook of Educational Data Mining}. 1. ed. Flórida,
   FL, USA: CRC Press, 2010.  (Chapman \& Hall\/CRC Data Mining and Knowledge
   Discovery Series).}
+
+\bibitem[Turney 2000]{Turney:2000:LAK:593957.593993}
+\abntrefinfo{Turney}{TURNEY}{2000}
+{TURNEY, P.~D. Learning algorithms for keyphrase extraction.
+\emph{Inf. Retr.}, Kluwer Academic Publishers, Hingham, MA, USA, v.~2, n.~4, p.
+  303--336, maio 2000.
+ISSN 1386-4564.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1023/A:1009976227802}.}
 
 \bibitem[Witten, Frank e Hall 2011]{Witten}
 \abntrefinfo{Witten, Frank e Hall}{WITTEN; FRANK; HALL}{2011}

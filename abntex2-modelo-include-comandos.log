@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  20 MAY 2016 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  20 MAY 2016 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,7 +417,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.33 N
-      a segunda etapa será proposto um algoritmo de linguagem de máquina p...
+      a segunda etapa será proposto um algoritmo de linguagem de máquina \...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -481,6 +481,24 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Hulth:2003:IAK:1119355.1119383}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.33 ...uina \cite{Hulth:2003:IAK:1119355.1119383}
+                                                   para extrair os assuntos ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Hulth:2003:IAK:1119355.1119383' on page  undefined on 
+input line 33.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -512,6 +530,24 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Turney:2000:LAK:593957.593993}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.33 ...ipais \cite{Turney:2000:LAK:593957.593993}
+                                                   das dúvidas postadas no ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Turney:2000:LAK:593957.593993' on page  undefined on i
+nput line 33.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -679,6 +715,16 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 33--34
+[]
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 33--34
 []
  []
 
@@ -1107,6 +1153,24 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{mihalcea-tarau:2004:EMNLP}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.35 ...{ranking} \cite{mihalcea-tarau:2004:EMNLP}
+                                                   das mais relevantes para ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `mihalcea-tarau:2004:EMNLP' on page  undefined on input
+ line 35.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1180,6 +1244,11 @@ Overfull \hbox (22.61649pt too wide) in paragraph at lines 35--36
 
 Overfull \hbox (13.2888pt too wide) in paragraph at lines 35--36
 \OT1/cmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
+[]
  []
 
 
@@ -2091,11 +2160,11 @@ Overfull \hbox (405.45175pt too wide) in paragraph at lines 48--75
 
  
 Here is how much of TeX's memory you used:
- 15 strings out of 493089
- 313 string characters out of 6134843
+ 18 strings out of 493089
+ 403 string characters out of 6134843
  58199 words of memory out of 5000000
- 3598 multiletter control sequences out of 15000+600000
+ 3601 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,9n,14p,555b,174s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,9n,21p,600b,170s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
