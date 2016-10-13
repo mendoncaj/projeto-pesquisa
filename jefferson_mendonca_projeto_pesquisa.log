@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  13 OCT 2016 01:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  13 OCT 2016 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,7 +1096,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 327.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 330.
  [13]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
@@ -1132,12 +1132,12 @@ No file jefferson_mendonca_projeto_pesquisa.ind.
 \tf@toc=\write7
 \openout7 = `jefferson_mendonca_projeto_pesquisa.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
  (./jefferson_mendonca_projeto_pesquisa.aux
 (./abntex2-modelo-include-comandos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `jefferson_mendonca_projeto_pesquisa.brf' has
  not changed.
 (rerunfilecheck)             Checksum: 6200075F496BF95AAFDB75304E66FBFE;183.
@@ -1145,14 +1145,14 @@ Package rerunfilecheck Info: File `jefferson_mendonca_projeto_pesquisa.brf' has
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 13763 strings out of 493089
- 206981 string characters out of 6134843
+ 13767 strings out of 493089
+ 207023 string characters out of 6134843
  366470 words of memory out of 5000000
  16896 multiletter control sequences out of 15000+600000
- 89014 words of font info for 100 fonts, out of 8000000 for 9000
+ 89180 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,12n,36p,695b,641s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1167,7 +1167,7 @@ al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive
 f-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /public/lm/lmsso12.pfb>
-Output written on jefferson_mendonca_projeto_pesquisa.pdf (24 pages, 305253 byt
+Output written on jefferson_mendonca_projeto_pesquisa.pdf (24 pages, 306123 byt
 es).
 PDF statistics:
  264 PDF objects out of 1000 (max. 8388607)
