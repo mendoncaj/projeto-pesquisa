@@ -15,8 +15,3 @@
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Recursos}}{15}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Cronograma}}{17}{chapter.4}
-\vspace {\cftbeforechapterskip }
-\vspace {\cftbeforechapterskip }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{19}{section*.8}
-\vspace {\cftbeforechapterskip }
