@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: plano.aux
+The style file: apalike.bst
+Database file #1: Refs.bib
+Warning--there's a number but no volume in Manning2009
+You've used 11 entries,
+            1935 wiz_defined-function locations,
+            552 strings with 5948 characters,
+and the built_in function-call counts, 4685 in all, are:
+= -- 482
+> -- 145
+< -- 13
++ -- 46
+- -- 46
+* -- 367
+:= -- 769
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 78
+chr.to.int$ -- 11
+cite$ -- 12
+duplicate$ -- 198
+empty$ -- 340
+format.name$ -- 65
+if$ -- 958
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 33
+pop$ -- 66
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 169
+stack$ -- 0
+substring$ -- 379
+swap$ -- 53
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 1
+while$ -- 44
+width$ -- 0
+write$ -- 145
+(There was 1 warning)

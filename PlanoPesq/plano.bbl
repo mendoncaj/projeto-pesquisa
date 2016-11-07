@@ -1,0 +1,72 @@
+\begin{thebibliography}{}
+
+\bibitem[Arash et~al., 2016]{Arash2016}
+Arash, M., English, E., and Mahdi (2016).
+\newblock {Text mining stackoverflow An insight into challenges and
+  subject-related difficulties faced An insight into challenges and
+  subject-related difficulties faced by computer science learners
+  subject-related difficulties faced by computer science learners}.
+\newblock {\em Journal of Enterprise Information Management Journal of
+  Enterprise Information Management Journal of Enterprise Information
+  Management Web of Science Database Library Review}, 29(3):255--275.
+
+\bibitem[Joorabchi et~al., 2015]{Joorabchi2015}
+Joorabchi, A., English, M., and Mahdi, A.~E. (2015).
+\newblock {Automatic mapping of user tags to Wikipedia concepts: The case of a
+  Q{\&}A website – StackOverflow}.
+\newblock {\em Article Journal of Information Science}, 41(5):570--583.
+
+\bibitem[Manning et~al., 2009]{Manning2009}
+Manning, C.~D., Raghavan, P., and Schutze, H. (2009).
+\newblock {An Introduction to Information Retrieval}.
+\newblock {\em Online}, (c):569.
+
+\bibitem[Mihalcea, 2007]{Mihalcea2007}
+Mihalcea, R. (2007).
+\newblock {Using Wikipedia for Automatic Word Sense Disambiguation}.
+\newblock In {\em Proceedings of NAACL HLT}, volume 2007, pages 142--147.
+
+\bibitem[Mihalcea and Tarau, 2004]{Mihalcea2004}
+Mihalcea, R. and Tarau, P. (2004).
+\newblock {TextRank: Bringing order into texts}.
+\newblock {\em Proceedings of EMNLP}, 85:404--411.
+
+\bibitem[Mihalcea and Mihalcea, 2001]{Mihalcea2001}
+Mihalcea, R.~F. and Mihalcea, S.~I. (2001).
+\newblock {Word Semantics for Information Retrieval: Moving One Step Closer to
+  the Semantic Web}.
+\newblock {\em 13th IEEE International Conference on Tools with Artificial
+  Intelligence. ICTAI 2001}, pages 280--287.
+
+\bibitem[Miotto and Weng, 2013]{Miotto2013}
+Miotto, R. and Weng, C. (2013).
+\newblock {Unsupervised mining of frequent tags for clinical eligibility text
+  indexing}.
+\newblock {\em Journal of Biomedical Informatics}, 46(6):1145--1151.
+
+\bibitem[Posch, 2014]{Posch2014}
+Posch, L. (2014).
+\newblock {Enriching Ontologies with Encyclopedic Background Knowledge for
+  Document Indexing}.
+\newblock {\em Proceedings of the 13th International Semantic Web Conference},
+  pages 537--544.
+
+\bibitem[Roul et~al., 2015]{Roul2015}
+Roul, R.~K., Asthana, S.~R., and Sahay, S.~K. (2015).
+\newblock {Automated document indexing via intelligent hierarchical clustering:
+  A novel approach}.
+\newblock {\em 2014 International Conference on High Performance Computing and
+  Applications, ICHPCA 2014}.
+
+\bibitem[Udell, 2005]{Udell2005}
+Udell, J. (2005).
+\newblock {UIMA and the Blogosphere}.
+\newblock {\em 1803072320050822}, page~30.
+
+\bibitem[Yasotha and Charles, 2016]{Yasotha2016}
+Yasotha, R. and Charles, E. Y.~A. (2016).
+\newblock {Automated text document categorization}.
+\newblock {\em 2015 IEEE 7th International Conference on Intelligent Computing
+  and Information Systems, ICICIS 2015}, pages 522--528.
+
+\end{thebibliography}

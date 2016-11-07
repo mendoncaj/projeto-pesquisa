@@ -1,0 +1,89 @@
+
+\newcommand{\programa}[1]{
+    \def\wprograma{#1}
+}
+
+\newcommand{\area}[1]{
+    \def\warea{#1}
+}
+
+\newcommand{\orientador}[1]{
+    \def\worientador{#1}
+}
+
+\newcommand{\aluno}[1]{
+    \def\waluno{#1}
+}
+
+\newcommand{\dataIngresso}[1]{
+    \def\wdataa{#1}
+}
+
+\newcommand{\titulo}[1]{
+    \def\wtitulo{#1}
+}
+
+\newcommand{\resumo}[1]{
+    \def\wresumo{#1}
+}
+
+\newcommand{\curso}[1]{
+    \def\wcurso{#1}
+}
+
+\newcommand{\criaPonteiro}[1]{%
+	\newcounter{cont#1}%
+	\setcounter{cont#1}{0}%
+	\newcounter{cont#1aux}%
+	\newcounter{cont#1aux2}%
+}
+
+\newcommand{\adicionaElemento}[2]{%
+	\expandafter\edef\csname ponteiro#1\the\value{cont#1} \endcsname{#2}%
+	\stepcounter{cont#1}%
+}
+
+\def\mostraTodosSeparados#1#2{%
+	\setcounter{cont#1aux}{0}%
+	\loop\ifnum\value{cont#1aux}<\value{cont#1}%
+		\ifnum\value{cont#1aux}>0 #2\space\fi
+		\csname ponteiro#1\the\value{cont#1aux} \endcsname%
+		\stepcounter{cont#1aux}%
+	\repeat%
+}
+
+\criaPonteiro{palavraChave}
+\newcommand{\palavrachave}[1]{\adicionaElemento{palavraChave}{#1}}
+
+\newcommand{\folhaDeRosto}{
+   % \center{
+    \Large{
+        \begin{tabular}{lp{10cm}}
+            Programa: & {\wprograma} \\
+            Área de Concentração: & {\warea} \\
+            Aluno: & {\waluno} \\
+            Orientador: & {\worientador} \\
+            Curso: & {\wcurso} \\
+            Data de Ingresso: & {\wdataa} \\
+            Título: & {\wtitulo} \\
+        \end{tabular}
+    }
+   % }
+    \newline
+    \large {
+        \section*{Resumo}
+        \indent
+        {\wresumo}
+        \\\\
+        \textbf{Palavras-chave:} \mostraTodosSeparados{palavraChave}{,}.
+    }
+    \clearpage
+}
+
+\newcommand{\plano}{
+    \title{\wtitulo}
+    \author{}
+    \date{}
+    \maketitle 
+}
+
