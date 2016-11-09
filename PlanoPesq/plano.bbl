@@ -10,11 +10,24 @@ Arash, M., English, E., and Mahdi (2016).
   Enterprise Information Management Journal of Enterprise Information
   Management Web of Science Database Library Review}, 29(3):255--275.
 
+\bibitem[Fallows, 2004]{Fallows}
+Fallows, D. (2004).
+\newblock {The Internet and Daily Life} many americans use the internet in
+  everyday activities, but traditional offline habits still dominate.
+\newblock
+  \url{http://www.pewinternet.org/files/old-media/Files/Reports/2004/PIP_Internet_and_Daily_Life.pdf.pdf}.
+\newblock Accessed: 2016-11-08.
+
 \bibitem[Joorabchi et~al., 2015]{Joorabchi2015}
 Joorabchi, A., English, M., and Mahdi, A.~E. (2015).
 \newblock {Automatic mapping of user tags to Wikipedia concepts: The case of a
   Q{\&}A website – StackOverflow}.
 \newblock {\em Article Journal of Information Science}, 41(5):570--583.
+
+\bibitem[Kaleta, 2014]{Kaleta2014}
+Kaleta, Z. (2014).
+\newblock {Semantic text indexing}.
+\newblock 15(1).
 
 \bibitem[Manning et~al., 2009]{Manning2009}
 Manning, C.~D., Raghavan, P., and Schutze, H. (2009).

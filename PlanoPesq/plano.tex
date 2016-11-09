@@ -14,26 +14,27 @@
 \usepackage{plano}
 %\usepackage[alf]{abntex2cite}
 \usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{csquotes}
 
 \programa{Engenharia Elétrica}
 \area{Engenharia de Computação}
-\aluno{Jefferson Caros de Mendonça}
+\aluno{Jefferson Carlos de Mendonça}
 \orientador{Edson Satoshi Gomi}
 \curso{Mestrado}
 \dataIngresso{14/09/2016}
-\titulo{Modelo para Mineração de Dados -
-Análise das Perguntas e Respostas do Site Stack Overflow}
+\titulo{Categorização das Perguntas do \textit{Site Stack Overflow}}
 \resumo{
-As transformações no cenário tecnológico provocam mudanças constantes que exigem atualização contínua. Como fonte de estudos e atualização, profissionais da área de computação diariamente recorrem à diversas fontes de informação, dentre elas destaca-se o site StackOverflow, maior comunidade de perguntas e respostas onde os usuários podem aprender, trocar experiências e compartilhar conhecimento.
-O objeto deste projeto de pesquisa é propor um modelo de mineração de dados que consiga catalogar as perguntas desta comunidade, facilitando a busca por informações e detecção dos principais questionamentos discutidos .}
+Transformações no cenário tecnológico provocam mudanças constantes que exigem atualização contínua. Para manter-se atualizado, profissionais da área de computação recorrem à diversas fontes de informação, dentre elas destaca-se o site \textit{Stack Overflow}\footnote{\url{http://stackoverflow.com/tour}}, maior comunidade de perguntas e respostas, onde os usuários podem aprender, trocar experiências e compartilhar conhecimento.
+O objeto de pesquisa deste trabalho é propor um algoritmo que consiga categorizar as perguntas deste \textit{website}. Uma vez que os questionamentos estejam devidamente indexados e organizados em tópicos, será possível detectar as dúvidas mais frequêntes reportadas pelos usuários, além de permitir, que os motores de busca encontrem um assunto de interesse com maior facilidade.}
 
-\palavrachave{information retrieval}
-\palavrachave{text mining}
-\palavrachave{text classification}
-\palavrachave{automated text categorization}
-\palavrachave{keyword extraction}
-\palavrachave{document indexing}
-\palavrachave{StackOverflow}
+\palavrachave{recuperação de informação}
+\palavrachave{mineração de textos}
+\palavrachave{classificação de textos}
+\palavrachave{categorização automática de textos}
+\palavrachave{extração de palavras chave}
+\palavrachave{indexação de documentos}
+\palavrachave{stack overflow}
 
 
 \begin{document}
@@ -44,29 +45,33 @@ O objeto deste projeto de pesquisa é propor um modelo de mineração de dados q
     
     \section{Introdução}
     
-    Não raro a evolução na área computacional se desenvolve em ritmo acelerado, novos algoritmos, técnicas para processamento de imagem, computação distribuída, \emph{linguagens de programação} aprimoram suas API's constantemente, construindo e desconstruindo métodos e muitas vezes incorporam novos paradigmas. Essas transformações no cenário tecnológico provocam mudanças constantes exigindo atualização contínua.
-	Para dar vazão a este dinamismo, profissionais da área de computação diariamente recorrem a cursos presenciais, a distância, livros, revistas e claro \textit{websites}. Dentre estas mídias, merece destaque o fórum \textit{Stack Overflow}, maior comunidade \textit{online} de perguntas e respostas onde os usuários podem aprender, trocar experiências e compartilhar conhecimento.
+A evolução na área computacional se desenvolve em ritmo acelerado, novos algoritmos, técnicas para programação distribuída, testes automatizados, bancos de dados etc. são assuntos que mudam com frequência, sem contar as \emph{linguagens de programação} que aprimoram suas API's constantemente, construindo e desconstruindo métodos e muitas vezes incorporam novos paradigmas. Para acompanhar as constantes mudanças, profissionais da área de computação necessitam qualificação, que pode ser obtida através de cursos presenciais, a distância, livros, revistas, artigos e claro \textit{websites}. \cite{Manning2009} afirma que a \textit{web} tornou-se a principal fonte por busca de informação e o relatório elaborado por \cite{Fallows} conclui que \enquote{ 92\% dos internautas dizem que a internet é um bom lugar para obter informações diariamente }.
+Dentre estas fontes, merece destaque o fórum \textit{Stack Overflow} (SO), maior comunidade \textit{online} de perguntas e respostas onde os usuários podem aprender, trocar experiências e compartilhar conhecimento.
     
     \subsection{Contextualização do Problema}
-    O número de questões em sites de perguntas e respostas crescem diariamente, faz-se necessário categorizar os assuntos discutidos em tópicos, para uma busca mais fácil e dinâmica.  \cite{Yasotha2016} observam que a categorização manual de textos, pode ser feita somente por especialistas e requer muito tempo. Como consequência é de grande importância a categorização e classificação de documentos de forma automática.
+O número de questões em sites de perguntas e respostas cresce diariamente, faz-se necessário categorizar os assuntos discutidos em tópicos, para uma busca mais eficiente e rápida. \cite{Manning2009} compara este problema ao da procura de um livro em uma biblioteca, com certeza nossa busca será mais rápida e assertiva se os livros estiverem separados em prateleiras por assunto ou tópico. \cite{Yasotha2016} adiciona que, a categorização manual de textos, pode ser feita somente por especialistas e requer muito tempo. Como consequência é de grande importância a categorização e classificação de documentos de forma automática ajudando os usuários a encontrarem informações relevantes para as suas necessidades.
 
     \subsection{Objetivos}
-Propor um modelo de mineração de dados sobre a comunidade online de perguntas e respostas StackOverflow, onde seja possível categorizar de forma automática os tópicos mais relevantes discutidos.
+Propor um algoritmo capaz de categorizar de forma automática as perguntas de um site como o SO.
 
     \subsection{Justificativas}
 
-O método proposto por \cite{Arash2016} categorizou os dados do StackOverflow. Em seu projeto os autores classificaram os assuntos utilizando as tags da própria pergunta, e então utilizaram o site Wikipédia para validar o tópico encontrado e identificar a qual categoria ele pertence. A proposta desta pesquisa, é prover a categorização e classificação de textos que faça apenas uso do texto disponível nas perguntas e respostas, não utilizando recursos adicionais como tags que fornecem dica sobre qual é o tópico de um assunto específico.
+O método proposto por \cite{Arash2016} categoriza os dados do SO. Em seu projeto os autores classificaram os assuntos utilizando as tags da própria pergunta, e então eles utilizaram o site Wikipédia para validar o tópico encontrado, assim foi possível identificar qual categoria uma pergunta pertence. No SO o próprio usuário, elege qual é a tag da referida pergunta publicada, limitando a expansão da solução existente para categorizar \textit{posts} em fórums que não possuem este recurso, exemplos: Code Ranch e Quora.
+\newline
+\newline
+A proposta deste projeto de pequisa, é desenvolver um algoritmo em que a categorização e classificação dos assuntos discutidos no SO faça uso apenas do texto disponível nas perguntas e respostas, sem que haja a necessidade de recorrer ao uso de tags, desta forma será possível replicar a solução em outros \textit{sites}.
 
    \subsection{Organização do texto}
 
-Para melhor definir qual o posicionamento do presento projeto, no capítulo seguinte será detalhado em maior profundidade os projetos que abordaram a categorização de documentos, inclusive àqueles que também fizeram uso do site StackOverflow como base de dados. Então a proposta será detalhada quantos aos procedimentos para a indexação das perguntas e respostas, desde a seleção do conteúdo original, armazenamento em banco de dados e extração e por fim serão exibidos os resultados esperados.
+Para melhor definir qual o posicionamento do presente projeto, no capítulo seguinte será detalhado em maior profundidade os projetos que abordaram a categorização de documentos, inclusive àqueles que também fizeram uso do site \textit{Stack Overflow} como base de dados. Então a proposta será detalhada quantos aos procedimentos para a indexação das perguntas e respostas, desde a seleção do conteúdo original, armazenamento em banco de dados e extração, por fim serão exibidos os resultados esperados. Segundo \cite{Kaleta2014} o termo indexação pode ser entendido como um dicionário de palavras-chave que representam o conteúdo de um texto.	
 
  \section{Revisão da Literatura}
    
 
 
-   \section{Detalhamento da Proposta}
+ \section{Detalhamento da Proposta}
 
+Aqui deve-se descrever a metodologia.
 
 
 %%\begin{figure}[!htb] 
@@ -88,6 +93,11 @@ A análise será feita sobre os mesmo dados da pesquisa realizada por \cite{Aras
     
 Atividades e Cronograma.
 
+
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
 \nocite{Joorabchi2015}
 \nocite{Manning2009}
 \nocite{Mihalcea2007}
@@ -97,6 +107,7 @@ Atividades e Cronograma.
 \nocite{Posch2014}
 \nocite{Roul2015}
 \nocite{Udell2005}
+\nocite{Kaleta2014}
 \bibliographystyle{apalike}
 \bibliography{Refs}{}  
 
