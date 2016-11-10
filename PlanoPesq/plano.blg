@@ -3,47 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: plano.aux
 The style file: apalike.bst
 Database file #1: Refs.bib
-Warning--empty journal in Kaleta2014
-Warning--there's a number but no volume in Manning2009
-You've used 13 entries,
+You've used 19 entries,
             1935 wiz_defined-function locations,
-            563 strings with 6293 characters,
-and the built_in function-call counts, 5217 in all, are:
-= -- 536
-> -- 159
-< -- 15
-+ -- 50
-- -- 50
-* -- 403
-:= -- 872
-add.period$ -- 40
-call.type$ -- 13
-change.case$ -- 90
-chr.to.int$ -- 13
-cite$ -- 15
-duplicate$ -- 221
-empty$ -- 376
-format.name$ -- 71
-if$ -- 1057
-int.to.chr$ -- 1
+            604 strings with 7346 characters,
+and the built_in function-call counts, 7558 in all, are:
+= -- 775
+> -- 232
+< -- 22
++ -- 75
+- -- 72
+* -- 574
+:= -- 1265
+add.period$ -- 59
+call.type$ -- 19
+change.case$ -- 130
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 330
+empty$ -- 552
+format.name$ -- 103
+if$ -- 1540
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 69
-num.names$ -- 39
-pop$ -- 73
+missing$ -- 19
+newline$ -- 99
+num.names$ -- 59
+pop$ -- 109
 preamble$ -- 1
-purify$ -- 90
+purify$ -- 130
 quote$ -- 0
-skip$ -- 190
+skip$ -- 277
 stack$ -- 0
-substring$ -- 403
-swap$ -- 53
-text.length$ -- 6
+substring$ -- 558
+swap$ -- 78
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
-warning$ -- 2
-while$ -- 48
+type$ -- 112
+warning$ -- 0
+while$ -- 69
 width$ -- 0
-write$ -- 171
-(There were 2 warnings)
+write$ -- 252
