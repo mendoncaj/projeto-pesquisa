@@ -1,0 +1,15 @@
+Review 1
+
+A contextualização poderia incluir o problema com a categorização atual dos sites.
+
+O método atual de classificação não está claramente especificado, assim a justificativa não deixa claro a real necessidade da classificação, se o site já utiliza tags para separar os assuntos, por que uma nova forma de classificação se faz necessária?
+
+A metodologia está boa, só não indica como será feita a comparação com o método atual, o que definirá a acurácia do método desenvolvido?
+
+Nos resultados esperados seria bom incluir como será validado se o método classificou corretamente as perguntas.
+
+
+
+Review 2
+
+Metodologia (*). A metodologia de pesquisa está bem descrita? A fundamentação científica e os métodos empregados são adequados? - Detalhar por enumeração os softwares utilizados seria mais didático para quem não entende do assunto. Sugiro também detalhar o método de validação que ele diz que será o mesmo de Arash et. al(2016). 
